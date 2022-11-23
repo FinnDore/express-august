@@ -1,3 +1,6 @@
+import bodyParser from 'body-parser';
+import express from 'express';
+const app = express();
 const port = process.env.PORT || 3333;
 
 app.use(bodyParser.json());
